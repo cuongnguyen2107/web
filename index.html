@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- SEO, Metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Learning</title>
+    <!-- CSS Import-->
+    <link rel="stylesheet" href="./styles.css"> 
+    <!-- JS Import -->
+    <script></script>
 </head>
 <body>
     <span class="hi"></span>
     <span id="id"></span>
     <div class="hello bye" id="10"></div>
     <button type="button"></button>
-    <header>
+    <!--<header>
         <h2>heading</h2>
         <nav>
             <ol>
@@ -21,8 +26,232 @@
                 <li><a href="">link 5</a></li>
             </ol>
         </nav>
-    </header>
-    <main></main>
-    <footer></footer>
+    </header>-->
+            <table>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                </tr>
+                <tr>
+                    <td>Peter</td>
+                    <td>Griffin</td>
+                </tr>
+                <tr>
+                    <td>Lois</td>
+                    <td>Griffin</td>
+                </tr>
+            </table>
+
+    <!--<div class="container">
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <rect x=0 y=0 width=100 height=100 fill="burlywood"/>
+            <path d="M 10 10 H 90 V 90 L 10 60" fill="transparent" stroke="black" stroke-width="3"/>
+          <circle cx=50 cy=50 r=20 class="svg-circle"/>
+            <g class="svg-text-group">
+              <text x="20" y="25" rotate="10" id="hello-text">Hello!</text>
+              <use href="#hello-text" x="-10" y="65" fill="white"/>
+            </g>
+        </svg>
+    </div>-->
+
+    <table>
+        <tr>
+            <td>i'm number one</td>
+            <td>i'm number two</td>
+            <td>i'm number three</td>
+            <td>i'm number four</td>
+        </tr>
+        <tr>
+            <td>one</td>
+            <td>two</td>
+            <td>three</td>
+            <td>four</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>name</td>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Owner</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+    </table>
+
+    <h1>Animals table</h1>
+    <table>
+      <tr>
+        <th colspan="2">Animals</th>
+      </tr>
+      <tr>
+        <th colspan="2">Hippopotamus</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Horse</th>
+        <td>Mare</td>
+      </tr>
+      <tr>
+        <td>Stallion</td>
+      </tr>
+      <tr>
+        <th colspan="2">Crocodile</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Chicken</th>
+        <td>Hen</td>
+      </tr>
+      <tr>
+        <td>Rooster</td>
+      </tr>
+    </table>
+
+    <table>
+        <colgroup>
+            <col />
+            <col style="background-color: yellow" />
+        </colgroup>
+        <tr>
+          <th>Data 1</th>
+          <th>Data 2</th>
+        </tr>
+        <tr>
+          <td>Calcutta</td>
+          <td>Orange</td>
+        </tr>
+        <tr>
+          <td>Robots</td>
+          <td>Jazz</td>
+        </tr>
+    </table>
+    
+    <h1>school time table</h1>
+    <table>
+        <caption>cnhc time table</caption>
+        <colgroup>
+            <col span="2"/>
+            <col style="background-color: #97DB9A"/>
+            <col style="width: 100px;" />
+            <col style="background-color: #97DB9A"/>
+            <col style="background-color: #DCC48E; border: 4px solid #C1437A;"/>
+            <col span="2" style="width: 100px;"/>
+        </colgroup>
+        <tr>    
+            <td>&nbsp;</td>
+            <td>mon</td>
+            <td>tues</td>
+            <td>wed</td>
+            <td>thurs</td>
+            <td>fri</td>
+            <td>sat</td>
+            <td>sun</td>
+        </tr>
+        <tr>
+            <td>1st period</td>
+            <td>english</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>german</td>
+            <td>dutch</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>2st period</td>
+            <td>english</td>
+            <td>english</td>
+            <td>&nbsp;</td>
+            <td>german</td>
+            <td>dutch</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>3st period</td>
+            <td>&nbsp;</td>
+            <td>german</td>
+            <td>&nbsp;</td>
+            <td>german</td>
+            <td>dutch</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>4st period</td>
+            <td>&nbsp;</td>
+            <td>english</td>
+            <td>&nbsp;</td>
+            <td>englishn</td>
+            <td>dutch</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+
+    <h1>My spending record</h1>
+
+    <table>
+      <caption>How I chose to spend my money</caption>
+    <thead>
+        <tr>
+            <th>Purchase</th>
+            <th>Location</th>
+            <th>Date</th>
+            <th>Evaluation</th>
+            <th>Cost (€)</th>
+          </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td colspan="4">SUM</td>
+            <td>118</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+          <td>Haircut</td>
+          <td>Hairdresser</td>
+          <td>12/09</td>
+          <td>Great idea</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Lasagna</td>
+          <td>Restaurant</td>
+          <td>12/09</td>
+          <td>Regrets</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>Shoes</td>
+          <td>Shoeshop</td>
+          <td>13/09</td>
+          <td>Big regrets</td>
+          <td>65</td>
+        </tr>
+        <tr>
+          <td>Toothpaste</td>
+          <td>Supermarket</td>
+          <td>13/09</td>
+          <td>Good</td>
+          <td>5</td>
+        </tr>
+    </tbody>
+  </table>
+
+  
+
 </body>
 </html>
